@@ -64,6 +64,9 @@ ifeq ($(HOST_OS),linux)
   endif
 endif
 
+# Low-ram optimizations
+PAC_LOW_RAM_DEVICE := true
+
 # WiFi
 BOARD_HAVE_SAMSUNG_WIFI          := true
 WIFI_BAND                        := 802_11_ABG
